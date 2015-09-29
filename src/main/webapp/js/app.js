@@ -126,6 +126,14 @@ app.factory('oauth2Provider', function ($modal) {
      *}
      * 
      * 
+     *    var auth2 = gapi.auth2.getAuthInstance();
+     *  auth2.signOut();
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
      */
     oauth2Provider.signOut = function () {
         gapi.auth.signOut();
