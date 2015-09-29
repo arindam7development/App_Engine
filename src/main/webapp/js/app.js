@@ -108,6 +108,8 @@ app.factory('oauth2Provider', function ($modal) {
 
     /**
      * Logs out the user.gapi.auth.setToken(null); or auth2.disconnect();
+     *  
+     * gapi.auth2.GoogleAuth GoogleAuth class 
      * 
      * GoogleAuth.signOut() Signs out all accounts from the application.
      * Returns A Promise that is fulfilled when all users have been signed out.
