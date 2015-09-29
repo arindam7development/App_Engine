@@ -108,6 +108,8 @@ app.factory('oauth2Provider', function ($modal) {
 
     /**
      * Logs out the user.gapi.auth.setToken(null); or auth2.disconnect();
+     * 
+     * The way to use auth2.disconnect is : gapi.auth2.GoogleAuth.disconnect()
      *  
      * gapi.auth2.GoogleAuth GoogleAuth class 
      * 
