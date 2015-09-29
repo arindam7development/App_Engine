@@ -133,7 +133,7 @@ app.factory('oauth2Provider', function ($modal) {
      *    var auth2 = gapi.auth2.getAuthInstance();
      *  auth2.signOut();
      * 
-     * 
+     * https://developers.google.com/identity/sign-in/web/sign-in#sign_out_a_user
      * 
      * 
      * 
