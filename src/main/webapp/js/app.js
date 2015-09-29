@@ -107,7 +107,7 @@ app.factory('oauth2Provider', function ($modal) {
     };
 
     /**
-     * Logs out the user.
+     * Logs out the user.gapi.auth.setToken(null);
      */
     oauth2Provider.signOut = function () {
         gapi.auth.signOut();
